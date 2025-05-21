@@ -102,12 +102,30 @@ class _UpdateStudentsState extends State<DeleteStudentsPost> {
           onPressed: () {
             Get.back();
             Get.back();
+            Get.back();
           },
           child: Text('OK'),
         ),
       ],
     );
   }
+  // _showDialog() {
+  //   Get.defaultDialog(
+  //     title: "삭제 결과",
+  //     middleText: "삭제가 완료 되었습니다.",
+  //     backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+  //     barrierDismissible: false,
+  //     actions: [
+  //       TextButton(
+  //         onPressed: () {
+  //           Get.back();
+  //           Get.back();
+  //         },
+  //         child: Text('OK'),
+  //       ),
+  //     ],
+  //   );
+  // }
 
   // ------------------------ //
   errorSnackBar() {
